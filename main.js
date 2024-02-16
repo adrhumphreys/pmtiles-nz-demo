@@ -9,7 +9,7 @@ const myMap = new maplibregl.Map({
   container: "map",
   style: {
     version: 8,
-    glyphs: "/public/fonts/{fontstack}/{range}.pbf",
+    glyphs: "/fonts/{fontstack}/{range}.pbf",
     sources: {
       protomaps: {
         type: "vector",
